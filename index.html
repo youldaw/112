@@ -50,7 +50,7 @@
 									<h4>Адвокат по гражданским <br> и уголовным делам  </h4>
 								</div>
 								<div class="order_item">
-									<form action="">
+									<form action="#!">
 										<h4>Оставьте заявку на <br>получение консультации</h4>
 										<input type="text" placeholder="Имя">
 										<input type="text" placeholder="Телефон">
@@ -73,122 +73,211 @@
 		<section class="case">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 case_col">
-						<div class="case_block">
-							<img src="images/case_img1.svg" alt="">
-							<div class="case_item">
-								<h4>ГРАЖДАНСКИЕ ДЕЛА</h4>
-								<a href="index.html">Подробнее <img src="images/case_arrow.svg" alt=""></a>
+					<div class="col-lg-12">
+						<ul class="nav nav-tabs top" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+								<div class="case_block top">
+									<img src="images/case_img1.svg" alt="">
+									<div class="case_item">
+										<h4>ГРАЖДАНСКИЕ ДЕЛА</h4>
+										<p>Подробнее <img src="images/case_arrow.svg" alt=""></p>
+									</div>
+								</div>
+							  </button>
+							</li>
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+								<div class="case_block top">
+									<img src="images/case_img2.svg" alt="">
+									<div class="case_item">
+										<h4>УГОЛОВНЫЕ ДЕЛА</h4>
+										<p>Подробнее <img src="images/case_arrow.svg" alt=""></p>
+									</div>
+								</div>
+							  </button>
+							</li>
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+								<div class="case_block top">
+									<img src="images/case_img3.svg" alt="">
+									<div class="case_item">
+										<h4>ЗАЩИТА ПРАВ ВОЕННОСЛУЖАЩИХ</h4>
+										<p>Подробнее <img src="images/case_arrow.svg" alt=""></p>
+									</div>
+								</div>
+							  </button>
+							</li>
+						</ul>
+						<div class="tab-content second" id="myTabContent">
+							<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+								<div class="row">
+									<div class="col-lg-12 case_tab">
+										<nav>
+											<div class="row nav nav-tabs" id="nav-tab" role="tablist">
+											  <button class="col-lg-4 nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><span>трудовые споры</span></button>
+											  <button class="col-lg-4 nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><span>наследственные споры</span></button>
+											  <button class="col-lg-4 nav-link" id="nav-three-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button" role="tab" aria-controls="nav-three" aria-selected="false"><span>земельные споры</span></button>
+											</div>
+										</nav>
+										<div class="tab-content" id="nav-tabContent">
+											<div class="tab-pane fade bor-one show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+												<div class="row ">
+													<div class="col-lg-6 tab_block">
+														<h4>вопросы</h4>
+														<ul>
+															<li>Незаконное увольнение, восстановление на работе</li>
+															<li>Привлечение к дисциплинарной ответственности</li>
+															<li>Изменение даты, формулировки и причины увольнения</li>
+															<li>Взыскание заработной платы и других выплат</li>
+															<li>Задержка выдачи трудовой книжки</li>
+															<li>Незаконное возложение материальной ответственности</li>
+															<li>Споры по ущербу, причиненному работнику</li>
+														</ul>
+													</div>
+													<div class="col-lg-6 tab_block">
+														<h4>услуги</h4>
+														<ul>
+															<li>Устная или письменная консультация по трудовому праву</li>
+															<li>Составление претензии, искового заявления, правового анализа</li>
+															<li>Участие в судебных заседаниях по трудовому спору</li>
+															<li>Обжалование решения суда по трудовому спору</li>
+															<li>Исполнение решения суда по трудовому спору</li>
+															<li>Жалоба по трудовому вопросу в Трудовую инспекцию в форме адвокатского запроса</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade bor-two" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+												<div class="tab_block">
+													<div class="row ">
+														<div class="col-lg-6 tab_block">
+															<h4>вопросы 2</h4>
+															<ul>
+																<li>Незаконное увольнение, восстановление на работе</li>
+																<li>Привлечение к дисциплинарной ответственности</li>
+																<li>Изменение даты, формулировки и причины увольнения</li>
+																<li>Взыскание заработной платы и других выплат</li>
+																<li>Задержка выдачи трудовой книжки</li>
+																<li>Незаконное возложение материальной ответственности</li>
+																<li>Споры по ущербу, причиненному работнику</li>
+															</ul>
+														</div>
+														<div class="col-lg-6 tab_block">
+															<h4>услуги</h4>
+															<ul>
+																<li>Устная или письменная консультация по трудовому праву</li>
+																<li>Составление претензии, искового заявления, правового анализа</li>
+																<li>Участие в судебных заседаниях по трудовому спору</li>
+																<li>Обжалование решения суда по трудовому спору</li>
+																<li>Исполнение решения суда по трудовому спору</li>
+																<li>Жалоба по трудовому вопросу в Трудовую инспекцию в форме адвокатского запроса</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade bor-three" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab" tabindex="0">
+												<div class="tab_block">
+													<div class="row ">
+														<div class="col-lg-6 tab_block">
+															<h4>вопросы 3</h4>
+															<ul>
+																<li>Незаконное увольнение, восстановление на работе</li>
+																<li>Привлечение к дисциплинарной ответственности</li>
+																<li>Изменение даты, формулировки и причины увольнения</li>
+																<li>Взыскание заработной платы и других выплат</li>
+																<li>Задержка выдачи трудовой книжки</li>
+																<li>Незаконное возложение материальной ответственности</li>
+																<li>Споры по ущербу, причиненному работнику</li>
+															</ul>
+														</div>
+														<div class="col-lg-6 tab_block">
+															<h4>услуги</h4>
+															<ul>
+																<li>Устная или письменная консультация по трудовому праву</li>
+																<li>Составление претензии, искового заявления, правового анализа</li>
+																<li>Участие в судебных заседаниях по трудовому спору</li>
+																<li>Обжалование решения суда по трудовому спору</li>
+																<li>Исполнение решения суда по трудовому спору</li>
+																<li>Жалоба по трудовому вопросу в Трудовую инспекцию в форме адвокатского запроса</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						
-						<div class="case_block">
-							<img src="images/case_img2.svg" alt="">
-							<div class="case_item">
-								<h4>УГОЛОВНЫЕ ДЕЛА</h4>
-								<a href="criminal.html">Подробнее <img src="images/case_arrow.svg" alt=""></a>
+							<div class="tab-pane in fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+								<div class="row ">
+									<div class="col-lg-6 tab_block">
+										<div class="tab_title one">
+											<h4>Адвокат осуществляет защиту</h4>
+										</div>
+										<ul>
+											<li>На стадии проверки до возбуждения уголовного дела</li>
+											<li>На предварительном следствии и дознании</li>
+											<li>Посещают обвиняемого в СИЗО (следственный изолятор)</li>
+											<li>Обжалуют постановления и действия органов дознания и следствия в суд и прокуратуру</li>
+											<li>Защита в суде различных инстанций</li>
+											<li>Обжалование приговоров в вышестоящие судебные инстанции</li>
+											<li>Представление интересов потерпевших на предварительном следствии и в суде</li>
+											<li>Сопровождение процедуры УДО (условно-досрочного освобождения)</li>
+											<li>Участие в оперативных или следственных действиях: осмотры, обыски, выемки</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 tab_block">
+										<div class="tab_title two">
+											<h4>Защита по следующим преступлениям</h4>
+										</div>
+										<ul>
+											<li>По убийству (ст.105 УК),</li>
+											<li>По причинению тяжкого вреда здоровью ( ст.111 УК),</li>
+											<li>По преступлениям против половой неприкосновенности ( ст.131 - ст.134 УК),</li>
+											<li>По разбою (ст.162 УК),</li>
+											<li>По краже (ст.158 УК),</li>
+											<li>По грабежу (ст.161 УК),</li>
+											<li>По делам о мошенничестве (ст.159 – 159.6 УК),</li>
+											<li>По делам о взятках (ст.290, 291, 291.1, 291.2 и 304 УК),</li>
+											<li>Адвокат по наркотикам (ст.ст.и 228.1 УК),</li>
+											<li>По ДТП с тяжкими последствиями (ст.264 УК),</li>
+											<li>По преступлениям о присвоении и растрате (ст. 160 УК),</li>
+											<li>По превышению должностных полномочий и злоупотреблении должностными полномочиями (ст.285, 286 УК),</li>
+											<li>Преступления против военной службы (ст. 331 – 352 гл. 33 УК),</li>
+											<li>По уголовным делам частного обвинения (ст. 115, 116.1, 128.1)</li>
+											<li>Защита по другим уголовным деяниям.</li>
+										</ul>
+									</div>
+								</div>
 							</div>
-						</div>
-						
-						<div class="case_block">
-							<img src="images/case_img3.svg" alt="">
-							<div class="case_item">
-								<h4>ЗАЩИТА ПРАВ ВОЕННОСЛУЖАЩИХ</h4>
-								<a href="military.html">Подробнее <img src="images/case_arrow.svg" alt=""></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-12 case_tab">
-						<nav>
-							<div class="row nav nav-tabs" id="nav-tab" role="tablist">
-							  <button class="col-lg-4 nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><span>трудовые споры</span></button>
-							  <button class="col-lg-4 nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><span>наследственные споры</span></button>
-							  <button class="col-lg-4 nav-link" id="nav-three-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button" role="tab" aria-controls="nav-three" aria-selected="false"><span>земельные споры</span></button>
-						</nav>
-						<div class="tab-content" id="nav-tabContent">
-							<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+							<div class="tab-pane in fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
 								<div class="row ">
 									<div class="col-lg-6 tab_block">
 										<h4>вопросы</h4>
 										<ul>
-											<li>Незаконное увольнение, восстановление на работе</li>
-											<li>Привлечение к дисциплинарной ответственности</li>
-											<li>Изменение даты, формулировки и причины увольнения</li>
-											<li>Взыскание заработной платы и других выплат</li>
-											<li>Задержка выдачи трудовой книжки</li>
-											<li>Незаконное возложение материальной ответственности</li>
-											<li>Споры по ущербу, причиненному работнику</li>
+											<li>порядок призыва на военную службу по призыву и по контракту;</li>
+											<li>порядок прохождения военной службы;</li>
+											<li>обеспечение служебным и постоянным жильём;</li>
+											<li>порядок увольнения и исключения из списков части;</li>
+											<li>дисциплинарная, административная, уголовная и другие </li>
+											<li>виды ответственности призывников и военнослужащих; <br>и иные вопросы</li>
 										</ul>
 									</div>
 									<div class="col-lg-6 tab_block">
 										<h4>услуги</h4>
 										<ul>
-											<li>Устная или письменная консультация по трудовому праву</li>
-											<li>Составление претензии, искового заявления, правового анализа</li>
-											<li>Участие в судебных заседаниях по трудовому спору</li>
-											<li>Обжалование решения суда по трудовому спору</li>
-											<li>Исполнение решения суда по трудовому спору</li>
-											<li>Жалоба по трудовому вопросу в Трудовую инспекцию в форме адвокатского запроса</li>
+											<li>Защита военнослужащих по уголовным делам</li>
+											<li>Восстановление на службе</li>
+											<li>Досрочное снятие судимости</li>
+											<li>Обеспечение постоянным и служебным жильем</li>
+											<li>Снятие дисциплинарных взысканий</li>
+											<li>Перевод военнослужащих</li>
+											<li>Защита прав гражданского персонала воинских частей</li>
+											<li>Взыскание выплат</li>
+											<li>Иные дела, связанные с прохождением военной службы</li>
 										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-								<div class="tab_block">
-									<div class="row ">
-										<div class="col-lg-6 tab_block">
-											<h4>вопросы 2</h4>
-											<ul>
-												<li>Незаконное увольнение, восстановление на работе</li>
-												<li>Привлечение к дисциплинарной ответственности</li>
-												<li>Изменение даты, формулировки и причины увольнения</li>
-												<li>Взыскание заработной платы и других выплат</li>
-												<li>Задержка выдачи трудовой книжки</li>
-												<li>Незаконное возложение материальной ответственности</li>
-												<li>Споры по ущербу, причиненному работнику</li>
-											</ul>
-										</div>
-										<div class="col-lg-6 tab_block">
-											<h4>услуги</h4>
-											<ul>
-												<li>Устная или письменная консультация по трудовому праву</li>
-												<li>Составление претензии, искового заявления, правового анализа</li>
-												<li>Участие в судебных заседаниях по трудовому спору</li>
-												<li>Обжалование решения суда по трудовому спору</li>
-												<li>Исполнение решения суда по трудовому спору</li>
-												<li>Жалоба по трудовому вопросу в Трудовую инспекцию в форме адвокатского запроса</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab" tabindex="0">
-								<div class="tab_block">
-									<div class="row ">
-										<div class="col-lg-6 tab_block">
-											<h4>вопросы 3</h4>
-											<ul>
-												<li>Незаконное увольнение, восстановление на работе</li>
-												<li>Привлечение к дисциплинарной ответственности</li>
-												<li>Изменение даты, формулировки и причины увольнения</li>
-												<li>Взыскание заработной платы и других выплат</li>
-												<li>Задержка выдачи трудовой книжки</li>
-												<li>Незаконное возложение материальной ответственности</li>
-												<li>Споры по ущербу, причиненному работнику</li>
-											</ul>
-										</div>
-										<div class="col-lg-6 tab_block">
-											<h4>услуги</h4>
-											<ul>
-												<li>Устная или письменная консультация по трудовому праву</li>
-												<li>Составление претензии, искового заявления, правового анализа</li>
-												<li>Участие в судебных заседаниях по трудовому спору</li>
-												<li>Обжалование решения суда по трудовому спору</li>
-												<li>Исполнение решения суда по трудовому спору</li>
-												<li>Жалоба по трудовому вопросу в Трудовую инспекцию в форме адвокатского запроса</li>
-											</ul>
-										</div>
 									</div>
 								</div>
 							</div>
